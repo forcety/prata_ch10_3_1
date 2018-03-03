@@ -14,37 +14,7 @@ int main(int argc, char *argv[])
     setgolf(ann, "Ann Birdfree", 24);
     showgolf(ann);
 
-/*	
-	int a = 0;
-	std::cout << "Input a: ";
-	std::cin >> a;
-	std::cout << "a = " << a << "\n"; 
-
-	int b = 0;
-	std::cout << "Input b:";
-	std::cin >> b;
-	std::cout << "b = " << b << "\n"; 
 	
-
-	char line[50];
-	std::cout << "Enter fullname: " ;
-	std::cin.getline(line, Len);
-	std::cout << "Complete line: " << line << "\n";
-	strcpy(g.fullname, line);
-
-	std::cin.get();
-
-	char name[256], title[256];
-	std::cout << "Enter name: ";
-	std::cin.getline(name, 256);
-	
-	std::cout << "Enter your favourite movie: ";
-	std::cin.getline(title, 256);
-
-	std::cout << "Name = " << name << "; Movie = " << title;
-	
-*/	
-
     // #2 setgolf version 2 (Interactive input of 1 player)
     std::cout << "...............\n";
     std::cout << "#2 setgolf version 2 (Interactive input of 1 player)\n";
