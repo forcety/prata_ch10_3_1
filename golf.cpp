@@ -2,6 +2,12 @@
 #include <iostream>
 #include <cstring>
 
+Golf::Golf()
+{
+	std::cout << "Default constructor called\n";
+	strcpy(fullname, "Heyyou");
+	handicap = 0;
+}
 
 void setgolf(golf & g, const char * name, int hc)
 {

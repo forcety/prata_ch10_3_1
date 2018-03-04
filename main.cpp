@@ -7,6 +7,8 @@ int main(int argc, char *argv[])
 
     std::cout << "Start program\n";
 
+	Golf gd1;
+
     // #1 setgolf version 1 (Non-interactive input of 1 players)
     std::cout << "...............\n";
     std::cout << "#1 setgolf version 1 (Non-interactive input of 1 players)\n";
